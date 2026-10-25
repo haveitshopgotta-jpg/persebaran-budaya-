@@ -1,0 +1,8 @@
+{
+  "name": " Peta \u0026 Persebaran Budaya Banyumas ",
+  "description": "Aplikasi penjelajahan interaktif peta dan persebaran budaya, tradisi, seni pertunjukan, dan kuliner Kabupaten Banyumas.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #2D1B0F;
+    background-color: #FDFBF7;
+  }
+
+  h1, h2, h3, .font-cinzel {
+    font-family: 'Cinzel', 'Playfair Display', Georgia, serif;
+  }
+
+  .font-playfair {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+}
+
+/* Custom Batik Manggar & Teak Accents */
+.batik-pattern-overlay {
+  background-color: #2D1B0F;
+  background-image: radial-gradient(#D4AF37 0.75px, transparent 0.75px), radial-gradient(#D4AF37 0.75px, #2D1B0F 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}
+
+.batik-border-gold {
+  border-image: linear-gradient(to right, #D4AF37, #F3E5AB, #D4AF37) 1;
+}
+
+/* Card Glow Effect */
+.card-heritage-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-heritage-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px -8px rgba(45, 27, 15, 0.15), 0 0 0 1px rgba(212, 175, 55, 0.35);
+}
+
+/* Leaflet Custom Marker & Popup styling */
+.leaflet-popup-content-wrapper {
+  background: #FDFBF7 !important;
+  color: #2D1B0F !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(212, 175, 55, 0.4) !important;
+  box-shadow: 0 20px 25px -5px rgba(45, 27, 15, 0.25) !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+.leaflet-popup-content {
+  margin: 0 !important;
+  line-height: 1.4 !important;
+}
+
+.leaflet-popup-tip {
+  background: #FDFBF7 !important;
+  border: 1px solid rgba(212, 175, 55, 0.4) !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5EFEB;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #B89326;
+}
